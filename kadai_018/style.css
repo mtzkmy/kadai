@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+#top {
+  width: 800px;
+  background-color: #dcc9f4;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-child {
+  background-color: #ffd0df;
+  width: 20%;
+  text-align: center;
+  margin: 0 5px;
+}
