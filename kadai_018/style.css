@@ -52,3 +52,37 @@
   top: 500px;
   left: 500px;
 }
+
+#bottom {
+  width: 800px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: #87ceeb;
+  position: relative;
+  margin-top: 20px;
+}
+
+#bottom-child01 {
+  width: 400px;
+  height: 100px;
+  background-color: #e5dcf0;
+}
+
+#bottom-child02 {
+  width: 400px;
+  height: 100px;
+  background-color: #e5dcf0;
+  position: absolute;
+  left: 200px;
+  top: 100px;
+}
+
+
+#bottom-child03 {
+  width: 400px;
+  height: 100px;
+  background-color: #e5dcf0;
+  position: absolute;
+  left: 400px;
+  top: 200px;
+}
