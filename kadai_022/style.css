@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+h1 {
+  margin: 0;
+  color: rgb(255,255,255);
+}
+
+p {
+  margin: 0;
+  font-size: 20px;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  font-size: 20px;
+}
+
+header {
+  margin-bottom: 20px;
+  background-color: rgb(244,79,79);
+  text-align: center;
+}
+
