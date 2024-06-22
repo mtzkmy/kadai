@@ -19,7 +19,7 @@ a {
 }
 
 header {
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
   background-color: rgb(244,79,79);
   text-align: center;
 }
@@ -41,12 +41,14 @@ main {
   text-align: center; 
 }
 
-.contents p::first-letter{
-  color: rgb(97,206,249);
+.contents p:nth-child(3)::first-letter {
+    font-weight: bold;
+    color: rgb(97,206,249);
 }
 
-.contents p:nth-of-type(2) {
-    font-weight: bold;
+.contents > img {
+  margin: 10px 0;
+  width: 70%;
 }
 
 h2 {
@@ -73,4 +75,18 @@ a:hover {
 }
 a:visited {
   color: rgb(193,234,251);
+}
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 25px;
+  }
+
+  #parent {
+    display: block;
+  }
 }
